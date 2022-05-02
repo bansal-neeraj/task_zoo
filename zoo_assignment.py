@@ -7,7 +7,7 @@ app.title('Zoo Simulation')
 
 z1 = Zoo(app)
 
-# create labels
+# create labels for List boxes for user interface
 
 for index, animal_species in enumerate(Animal, start=1):
     animal_label = Label(app, text=animal_species.name, font=('bold', 14), pady=20)
